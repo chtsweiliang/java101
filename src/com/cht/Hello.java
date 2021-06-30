@@ -12,7 +12,7 @@ public class Hello {
 		// 改變數名稱:Refactor->rename
 //		System.out.println("Hello world!");
 		Random random = new Random();
-		int num = random.nextInt();
+		int number = random.nextInt();
 		long big = 11234424445555L;
 		double weight = 85.4d;
 		float height = 173.5f;
@@ -21,13 +21,20 @@ public class Hello {
 		char c2 = 123;
 		boolean adult = false;
 		boolean paid = true;
-		System.out.println(num);
+		System.out.println(number);
 		System.out.println(weight);
 		System.out.println(height);
-		
-		//類別與物件的關係
-		String data="123";
-		System.out.println(Integer.parseInt(data)+1);
+
+		// 類別與物件的關係
+		String data = "123";
+		System.out.println(Integer.parseInt(data) + 1);
+
+		int num = 6;
+		num = num + 2; // 8
+		num = num - 5; // 3
+		num = num /2 ; // ?
+
+		System.out.println(num);
 
 	}
 
